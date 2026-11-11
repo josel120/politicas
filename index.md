@@ -11,7 +11,7 @@ Contacto / Contact: josegomezdeveloper@gmail.com
 | App | Privacidad / Privacy | Otros |
 | --- | --- | --- |
 | **AllFlag** | [Privacy policy](allflag/privacidad/) | — |
-| **QrScanner** | Próximamente / Coming soon | Eliminación de cuenta: próximamente |
+| **QrScanner** | [Privacidad / Privacy](qrscanner/privacidad/) | [Eliminar cuenta / Delete account](qrscanner/eliminar-cuenta/) |
 
 ## Webs
 

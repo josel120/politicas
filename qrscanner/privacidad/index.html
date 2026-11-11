@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Política de privacidad — QrScanner</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Política de privacidad de la app QrScanner / QrScanner app privacy policy.">
+<style>
+  :root { color-scheme: light dark; --texto: #1a1a1a; --suave: #555; --fondo: #fff; --enlace: #4b2bbf; }
+  @media (prefers-color-scheme: dark) { :root { --texto: #e8e8e8; --suave: #aaa; --fondo: #121212; --enlace: #b9a7ff; } }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: var(--texto); background: var(--fondo); }
+  a { color: var(--enlace); }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  hr { margin: 3rem 0; border: 0; border-top: 1px solid var(--suave); }
+  footer { margin-top: 3rem; font-size: .85rem; color: var(--suave); }
+</style>
+</head>
+<body>
+
+<nav><a href="#es">Español</a> · <a href="#en">English</a></nav>
+
+<section id="es" lang="es">
+<h1>Política de privacidad de QrScanner</h1>
+<p><strong>Última actualización:</strong> 10 de noviembre de 2026</p>
+
+<p>QrScanner (paquete <code>com.joseluisgomezaraujo.developer.qr_scan</code>) es una app para escanear códigos QR y guardar un historial de lo escaneado. Esta política explica qué datos maneja la app, para qué y cómo puedes borrarlos. Responsable: José Luis Gómez Araujo (contacto en la sección 10).</p>
+
+<h2>1. Uso sin cuenta (modo invitado)</h2>
+<p>Puedes usar QrScanner sin crear una cuenta. En ese caso tu historial se guarda <strong>solo en tu dispositivo</strong> (base de datos local SQLite) y no se envía a ningún servidor nuestro.</p>
+
+<h2>2. Cuenta opcional y sincronización</h2>
+<p>Si inicias sesión, usamos <strong>Firebase Authentication</strong> (Google LLC) con el método que elijas:</p>
+<ul>
+  <li><strong>Google:</strong> tu dirección de correo, nombre y foto de perfil que entrega tu cuenta de Google.</li>
+  <li><strong>Correo y contraseña:</strong> tu dirección de correo (la contraseña la gestiona Firebase; nosotros no la vemos).</li>
+  <li><strong>Teléfono:</strong> tu número de teléfono, para enviarte un código SMS de verificación.</li>
+</ul>
+<p>Firebase asigna además un identificador de usuario (UID). Con la sesión iniciada, tu historial —el texto o enlace de cada código, el alias que le pongas, si es favorito y las fechas de creación y de cambios— se sincroniza en <strong>Cloud Firestore</strong> (Google LLC) bajo tu UID, para que lo veas en tus otros dispositivos. Solo tu cuenta puede leer o escribir esos datos.</p>
+
+<h2>3. Publicidad (Google AdMob) y consentimiento</h2>
+<p>La app muestra anuncios de <strong>Google AdMob</strong>: un banner, anuncios al abrir la app y, solo si tú lo eliges en «Apoya al desarrollador», un anuncio recompensado (la recompensa es solo un agradecimiento y un contador; no desbloquea funciones). Para servir y medir anuncios, Google puede recopilar el <strong>ID de publicidad</strong> del dispositivo, la dirección IP (de la que deriva una ubicación aproximada), interacciones con los anuncios y datos de diagnóstico.</p>
+<p>En el Espacio Económico Europeo, Reino Unido, Suiza y donde la ley lo exija, antes de pedir cualquier anuncio te mostramos el formulario de consentimiento de Google (User Messaging Platform). Puedes cambiar tu elección cuando quieras en <em>Configuración › Privacidad de anuncios</em>, y restablecer o eliminar tu ID de publicidad desde los ajustes de Android. Más información: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">cómo usa Google los datos de las apps de sus socios</a>.</p>
+
+<h2>4. Cámara</h2>
+<p>La cámara se usa solo para leer códigos QR en el momento. No guardamos fotos ni video.</p>
+
+<h2>5. Exportar historial</h2>
+<p>Puedes exportar tu historial a un archivo CSV o JSON. El archivo se crea en tu dispositivo y tú decides con quién compartirlo; nosotros no lo recibimos.</p>
+
+<h2>6. Enlaces escaneados</h2>
+<p>Antes de abrir un enlace escaneado, la app te muestra el dominio de destino y te pide confirmación. Al abrirlo, la página la carga tu navegador y se rige por la política de ese sitio.</p>
+
+<h2>7. Seguridad, conservación y proveedores</h2>
+<p>Las comunicaciones con Firebase y AdMob van cifradas (TLS). No vendemos tus datos. Google LLC actúa como proveedor (Firebase) y como socio publicitario (AdMob). Conservamos los datos de tu cuenta y tu historial sincronizado mientras tengas la cuenta; al borrarla se eliminan (sección 8). El historial local permanece en tu dispositivo hasta que lo borres desde la app o la desinstales. La copia de seguridad de Android no incluye tu sesión iniciada.</p>
+
+<h2>8. Cómo borrar tu cuenta y tus datos</h2>
+<ul>
+  <li><strong>Desde la app:</strong> <em>Configuración › Borrar cuenta</em>. Se borran tu cuenta de Firebase y todo tu historial en la nube; tú eliges si conservar o no el historial guardado en el dispositivo. Puede pedirte volver a identificarte.</li>
+  <li><strong>Sin la app:</strong> sigue las instrucciones en <a href="https://josel120.github.io/politicas/qrscanner/eliminar-cuenta/">josel120.github.io/politicas/qrscanner/eliminar-cuenta/</a> o escribe a la dirección de la sección 10.</li>
+  <li>El historial de invitado se borra desde la app (de a uno o todo) o desinstalándola.</li>
+</ul>
+
+<h2>9. Menores</h2>
+<p>QrScanner no está dirigida a menores de 13 años y no recopila intencionalmente datos de menores.</p>
+
+<h2>10. Cambios y contacto</h2>
+<p>Publicaremos cualquier cambio en esta página con su fecha. Preguntas o solicitudes de privacidad: <a href="mailto:josegomez120@gmail.com">josegomez120@gmail.com</a>.</p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h1>QrScanner privacy policy</h1>
+<p><strong>Last updated:</strong> November 10, 2026</p>
+
+<p>QrScanner (package <code>com.joseluisgomezaraujo.developer.qr_scan</code>) is an app to scan QR codes and keep a history of what you scanned. This policy explains what data the app handles, why, and how to delete it. Controller: José Luis Gómez Araujo (contact in section 10).</p>
+
+<h2>1. Use without an account (guest mode)</h2>
+<p>You can use QrScanner without an account. Your history is then stored <strong>only on your device</strong> (local SQLite database) and is never sent to our servers.</p>
+
+<h2>2. Optional account and sync</h2>
+<p>If you sign in, we use <strong>Firebase Authentication</strong> (Google LLC) with the method you choose:</p>
+<ul>
+  <li><strong>Google:</strong> the email address, name and profile photo provided by your Google account.</li>
+  <li><strong>Email and password:</strong> your email address (Firebase manages the password; we never see it).</li>
+  <li><strong>Phone:</strong> your phone number, to send you an SMS verification code.</li>
+</ul>
+<p>Firebase also assigns a user ID (UID). While signed in, your history —each code's text or link, any alias, favorite flag, and creation/change dates— is synced to <strong>Cloud Firestore</strong> (Google LLC) under your UID so you can see it on your other devices. Only your account can read or write that data.</p>
+
+<h2>3. Advertising (Google AdMob) and consent</h2>
+<p>The app shows <strong>Google AdMob</strong> ads: a banner, app-open ads and, only if you choose it under “Support the developer”, a rewarded ad (the reward is just a thank-you and a counter; it unlocks no features). To serve and measure ads, Google may collect the device <strong>advertising ID</strong>, IP address (used to infer approximate location), ad interactions and diagnostics.</p>
+<p>In the EEA, UK, Switzerland and wherever required by law, we show Google’s consent form (User Messaging Platform) before requesting any ad. You can change your choice at any time in <em>Settings › Ad privacy</em>, and reset or delete your advertising ID in Android settings. More: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses data from partner apps</a>.</p>
+
+<h2>4. Camera</h2>
+<p>The camera is used only to read QR codes in real time. We do not store photos or video.</p>
+
+<h2>5. Exporting history</h2>
+<p>You can export your history to a CSV or JSON file. The file is created on your device and you decide who to share it with; we do not receive it.</p>
+
+<h2>6. Scanned links</h2>
+<p>Before opening a scanned link, the app shows the destination domain and asks for confirmation. Once opened, the page is loaded by your browser and governed by that site’s policy.</p>
+
+<h2>7. Security, retention and providers</h2>
+<p>Traffic to Firebase and AdMob is encrypted (TLS). We do not sell your data. Google LLC acts as our provider (Firebase) and advertising partner (AdMob). We keep your account data and synced history while your account exists; deleting it removes them (section 8). Local history stays on your device until you delete it in the app or uninstall it. Android backups exclude your sign-in session.</p>
+
+<h2>8. How to delete your account and data</h2>
+<ul>
+  <li><strong>In the app:</strong> <em>Settings › Delete account</em> (“Borrar cuenta”). Your Firebase account and all your cloud history are deleted; you choose whether to keep the history stored on the device. You may be asked to sign in again.</li>
+  <li><strong>Without the app:</strong> follow <a href="https://josel120.github.io/politicas/qrscanner/eliminar-cuenta/">josel120.github.io/politicas/qrscanner/eliminar-cuenta/</a> or email the address in section 10.</li>
+  <li>Guest history is deleted in the app (one by one or all) or by uninstalling it.</li>
+</ul>
+
+<h2>9. Children</h2>
+<p>QrScanner is not directed to children under 13 and does not knowingly collect children’s data.</p>
+
+<h2>10. Changes and contact</h2>
+<p>Any change will be posted on this page with its date. Privacy questions or requests: <a href="mailto:josegomez120@gmail.com">josegomez120@gmail.com</a>.</p>
+</section>
+
+<footer>QrScanner — José Luis Gómez Araujo.</footer>
+
+</body>
+</html>
